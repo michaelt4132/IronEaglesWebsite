@@ -9,8 +9,40 @@
     --cool-gray: rgb(61, 57, 53);
 }
 
+.navbar {
+    font-size: 20px;
+}
+
+.a {
+    text-decoration: none;
+}
+
 .gold {
     color: var(--gold);
+}
+
+.bg-gold {
+    background-color: var(--metallic-gold);
+}
+
+.text-title {
+    color: rgb(214, 214, 214);
+}
+
+.text-paragraph {
+    color: rgb(133, 133, 133);
+}
+
+.navy {
+    background-color: var(--navy);
+}
+
+.lightgray {
+    background-color: rgb(175, 175, 175);
+}
+
+.black {
+    background-color: rgb(20,20,20);
 }
 
 /* Carousel base class */
@@ -50,6 +82,7 @@
 body {
     padding-bottom: 20px;
     background-color: var(--navy);
+    /* background-color: rgb(230,230,230); */
 }
 
 .navbar {
