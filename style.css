@@ -7,6 +7,7 @@
     --maroon: rgb(120, 47, 64);
     --light-blue: rgb(121, 185, 251);
     --cool-gray: rgb(61, 57, 53);
+    --nav: rgb(46, 46, 46);
 }
 
 .navbar {
@@ -25,12 +26,17 @@
     background-color: var(--metallic-gold);
 }
 
+.bg-nav {
+    background-color: var(--nav);
+}
+
 .text-title {
     color: rgb(214, 214, 214);
 }
 
 .text-paragraph {
     color: rgb(133, 133, 133);
+    text-align: justify;
 }
 
 .navy {
